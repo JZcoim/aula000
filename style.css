@@ -1,0 +1,44 @@
+body {
+    background-color: #e9e9e9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+    background-color: #333333;
+    color: #ffffff;
+    width: 100%;
+    padding: 40px;
+}
+
+.menu a {
+    color: yellow;
+}
+
+#conteudo-principal {
+    background-color: white;
+    width: 600px;
+    border: 5px solid #cccccc;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.postagem {
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+#barra-lateral {
+    background-color: #d1ecf1;
+    width: 300px;
+    padding: 20px;
+    border: 2px dashed #17a2b8;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#rodape {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
