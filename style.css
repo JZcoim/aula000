@@ -56,6 +56,10 @@ header, footer {
     background-color: #d1ecf1;
     width: 25%;
     padding: 20px;
-    border: 2px, dashed #17a2b8;
-    margin-top: 20px;
+    border: 2px dashed #17a2b8;
+    margin: 20px;
+}
+article img{
+    display: block;
+    margin-bottom: 15px;
 }
