@@ -20,6 +20,7 @@ header {
     background-color: #333333;
     color: #ffffff;
     padding: 40px;
+    margin-bottom: 40px
 }
 
 footer {
@@ -48,6 +49,7 @@ header, footer {
 .postagem {
     background-color: #f4f4f4;
     padding: 15px;
+    margin-bottom: 20px
 }
 
 #barra-lateral {
