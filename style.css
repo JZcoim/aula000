@@ -1,10 +1,13 @@
-body {
-    background-color: #e9e9e9;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-
+* {
+    box-sizing: border-box;
 }
 
+body {
+    background-color: #e9e9e9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
 h1 {
     font-weight: bold;
 }
@@ -12,13 +15,23 @@ h1 {
 h2 {
     font-style: italic;
 }
-#cabecalho {
+header {
     text-align: center;
     background-color: #333333;
     color: #ffffff;
-    width: 100%;
     padding: 40px;
 }
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
+
+header, footer {
+    width: 100%;
+}
+
 
 .menu a {
     color: yellow;
@@ -26,10 +39,10 @@ h2 {
 
 #conteudo-principal {
     background-color: white;
-    width: 600px;
+    width: 65%;
     border: 5px solid #cccccc;
     padding: 30px;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .postagem {
@@ -39,16 +52,8 @@ h2 {
 
 #barra-lateral {
     background-color: #d1ecf1;
-    width: 300px;
+    width: 25%;
     padding: 20px;
-    border: 2px dashed #17a2b8;
-    margin-left: 20px;
+    border: 2px, dashed #17a2b8;
     margin-top: 20px;
-}
-
-footer {
-    background-color: #333333;
-    color: white;
-    padding: 20px;
-    width: 100%;
 }
