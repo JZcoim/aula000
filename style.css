@@ -222,13 +222,12 @@ a:hover {
 
 .post-image figcaption {
     padding: calc(var(--spacing-unit) * 2);
-    
     color: var(--texto-preto);
     font-size: 0.875rem;
     text-align: center;
 }
 
-.read-more {
+.mais {
     display: inline-flex;
     align-items: center;
     gap: calc(var(--spacing-unit) * 1);
@@ -241,7 +240,7 @@ a:hover {
     margin-top: calc(var(--spacing-unit) * 2);
 }
 
-.read-more:hover {
+.mais:hover {
     background-color: var(--primary-color);
     color: var(--bg-white);
     transform: translateX(4px);
