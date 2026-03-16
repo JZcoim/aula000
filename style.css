@@ -143,7 +143,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     gap: calc(var(--spacing-unit) * 4);
-    flex: 1;
+    flex: 1 0 aut;
 }
 
 @media (min-width: 768px) {
