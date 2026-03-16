@@ -1,7 +1,7 @@
 :root {
     --primary-color: #2563eb;
     --primary-dark: #1e40af;
-    --secondary-color: #0f172a;
+    --secondary-color: #333333;
     --accent-color: #0ea5e9;
     --text-dark: #1e293b;
     --text-cab:  #e9e9e9;
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .site-header {
-    background: linear-gradient(135deg, var(--secondary-color) 0%, #334155 100%);
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #33333373 100%);
     color: var(--bg-white);
     padding: calc(var(--spacing-unit) * 4) calc(var(--spacing-unit) * 3);
     box-shadow: var(--shadow-md);
@@ -107,7 +107,7 @@ a:hover {
 }
 
 .menu-link {
-    color: var(--bg-white);
+    color: #ffff00;
     font-weight: 500;
     padding: calc(var(--spacing-unit) * 1.5) calc(var(--spacing-unit) * 3);
     border-radius: calc(var(--border-radius) / 2);
