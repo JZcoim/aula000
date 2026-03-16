@@ -256,15 +256,15 @@ a:hover {
     border: 2px dashed #17a2b8;
 }
 
-.useful-links {
+.links {
     list-style: none;
 }
 
-.useful-links li {
+.links li {
     margin-bottom: calc(var(--spacing-unit) * 1.5);
 }
 
-.useful-links a {
+.links a {
     display: flex;
     align-items: center;
     padding: calc(var(--spacing-unit) * 1.5);
@@ -274,7 +274,7 @@ a:hover {
     font-weight: 500;
 }
 
-.useful-links a::before {
+.links a::before {
     content: '→';
     margin-right: calc(var(--spacing-unit) * 1.5);
     color: var(--primary-color);
@@ -282,13 +282,13 @@ a:hover {
     transition: transform 0.3s ease;
 }
 
-.useful-links a:hover {
+.links a:hover {
     background-color: var(--bg-light);
     color: var(--primary-color);
     transform: translateX(4px);
 }
 
-.useful-links a:hover::before {
+.links a:hover::before {
     transform: translateX(4px);
 }
 
