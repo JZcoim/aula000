@@ -247,9 +247,9 @@ a:hover {
     width: 300px;
     padding: 20px;
     border: 2px dashed #17a2b8;
-    margin-left: 20px;
-    margin-top: 20px;
-
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--spacing-unit) * 3);
 }
 
 .sidebar-section {
