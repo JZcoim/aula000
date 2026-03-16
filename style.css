@@ -10,8 +10,7 @@
     --bg-white: #ffffff;
     --border-color: #cccccc;
     --success-color: #10b981;
-    --warning-color: #f59e0b;
-    --error-color: #ef4444;
+    --cor-alerta: #f59e0b;
     --spacing-unit: 8px;
     --border-radius: 12px;
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -88,7 +87,7 @@ a:hover {
     backdrop-filter: blur(10px);
 }
 
-.header-content {
+.header-conteudo {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -191,16 +190,16 @@ a:hover {
     background-color: #f4f4f4;
 }
 
-.alert-box {
+.caixa-atencao {
     background-color: #fef3c7;
-    border-left: 4px solid var(--warning-color);
+    border-left: 4px solid var(--cor-alerta);
     padding: calc(var(--spacing-unit) * 2);
     margin: calc(var(--spacing-unit) * 3) 0;
     border-radius: calc(var(--border-radius) / 2);
     color: #ff0000
 }
 
-.alert-box strong {
+.caixa-atencao strong {
     color: #ff0000;
 }
 
