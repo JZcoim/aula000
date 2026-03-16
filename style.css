@@ -163,7 +163,7 @@ a:hover {
 }
 
 .postagem {
-    background-color: white;
+    background-color: #f4f4f4;
     padding: calc(var(--spacing-unit) * 4);
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-sm);
@@ -186,6 +186,7 @@ a:hover {
 
 .post-content {
     margin-top: calc(var(--spacing-unit) * 2);
+    background-color: #f4f4f4;
 }
 
 .alert-box {
