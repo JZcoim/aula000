@@ -152,14 +152,14 @@ a:hover {
     }
 }
 
-.conteudo-principal { 
+.conteudo-principal {
     display: flex;
     flex-direction: column;
     gap: calc(var(--spacing-unit) * 3);
-    /* Removido margin-left fixo para não quebrar o layout responsivo */
-    padding: 20px; 
+    border: 5px solid #cccccc;
+    padding: 30px;
+    margin-left: 20px;
     background-color: white;
-    border-radius: var(--border-radius);
 }
 
 .postagem {
