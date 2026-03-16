@@ -3,43 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog sobre tecnologia, web design e desenvolvimento">
     <title>Blog de Tecnologia</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
+        <div class="header-content">
             <h1>Meu Blog de Tecnologia</h1>
-            <nav class="menu">
-                <a href="#">Home</a> | 
-                <a href="#">Sobre</a> | 
-                <a href="#">Contato</a>
+            <nav class="menu" role="navigation" aria-label="Menu principal">
+                <a href="#" class="menu-link">Home</a>
+                <a href="#" class="menu-link">Sobre</a>
+                <a href="#" class="menu-link">Contato</a>
             </nav>
+        </div>
     </header>
-        <main id="conteudo-principal">
+
+    <div class="container">
+        <main class="conteudo-principal">
             <article class="postagem">
-            <h2>O futuro do Web Design</h2>
-            <p>Neste artigo, vamos falar sobre as novas tendências. <span style="color: red;">Atenção: o conteúdo abaixo é muito importante!</span></p>
-            <img src="imagem/imagem-tecnologica.jpeg" alt="Imagem de tecnologia"
-            >
-            <p>Para ler mais, clique no link abaixo.</p>
-        </article>
+                <h2>O futuro do Web Design</h2>
+                <time datetime="2024-01-15" class="post-date">15 de Janeiro, 2024</time>
+                <div class="post-content">
+                    <p>Neste artigo, vamos falar sobre as novas tendências em web design e como elas estão moldando a experiência digital moderna.</p>
+                    <div class="alert-box">
+                        <strong>Atenção:</strong> O conteúdo abaixo é muito importante!
+                    </div>
+                    <figure class="post-image">
+                        <img src="imagem/imagem-tecnologica.jpeg" alt="Tecnologias modernas de desenvolvimento web" loading="lazy">
+                        <figcaption>Ferramentas e tecnologias modernas</figcaption>
+                    </figure>
+                    <p>A evolução do design web está cada vez mais focada em experiências responsivas, acessíveis e performáticas.</p>
+                    <a href="#" class="read-more">Continuar lendo →</a>
+                </div>
+            </article>
 
-        <section class="postagem">
-            <h2>Dicas de CSS</h2>
-            <p>Aprenda a centralizar divs usando a tag center.</p>
-        </section>
-    </main>
+            <article class="postagem">
+                <h2>Dicas de CSS Moderno</h2>
+                <time datetime="2024-01-10" class="post-date">10 de Janeiro, 2024</time>
+                <div class="post-content">
+                    <p>Aprenda técnicas modernas de CSS para criar layouts responsivos e acessíveis usando Flexbox, Grid e outras funcionalidades.</p>
+                    <a href="#" class="read-more">Continuar lendo →</a>
+                </div>
+            </article>
+        </main>
 
-    <aside id="barra-lateral">
-        <h3>Links Úteis</h3>
-        <ul>
-            <li><a href="#">W3C</a></li>
-            <li><a href="#">MDN</a></li>
-        </ul>
-    </aside>
-    <br><br><br>
+        <aside class="barra-lateral">
+            <div class="sidebar-section">
+                <h3>Links Úteis</h3>
+                <ul class="useful-links">
+                    <li><a href="https://www.w3.org/" target="_blank" rel="noopener">W3C</a></li>
+                    <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a></li>
+                    <li><a href="https://web.dev/" target="_blank" rel="noopener">Web.dev</a></li>
+                    <li><a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS-Tricks</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 Blog de Tecnologia - Todos os direitos reservados.</p>
+    </footer>
 </body>
-<footer>
-    <p>Copyright 2010 - Todos os direitos reservados.</p>
-</footer>
 </html>
