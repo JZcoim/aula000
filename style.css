@@ -5,7 +5,7 @@
     --accent-color: #0ea5e9;
     --text-dark: #1e293b;
     --text-light: #64748b;
-    --bg-light: #f8fafc;
+    --bg-light: #e9e9e9
     --bg-white: #ffffff;
     --border-color: #e2e8f0;
     --success-color: #10b981;
@@ -189,7 +189,7 @@ a:hover {
     padding: calc(var(--spacing-unit) * 2);
     margin: calc(var(--spacing-unit) * 3) 0;
     border-radius: calc(var(--border-radius) / 2);
-    color: #92400e;
+    color: #ff0000
 }
 
 .alert-box strong {
