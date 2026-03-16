@@ -156,6 +156,9 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: calc(var(--spacing-unit) * 3);
+    border: 5px solid #cccccc;
+    padding: 30px;
+    margin-left: 20px;
 }
 
 .postagem {
@@ -301,7 +304,7 @@ a:hover {
 }
 
 .site-footer p {
-    color: #94a3b8;
+    color: #ffffff
     margin: 0;
     font-size: 0.875rem;
 }
