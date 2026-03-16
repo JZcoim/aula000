@@ -2,15 +2,14 @@
     --primary-color: #2563eb;
     --primary-dark: #1e40af;
     --secondary-color: #333333;
-    --accent-color: #0ea5e9;
+    --texto-menu: #ffc400;
     --text-dark: #1e293b;
     --text-cab:  #e9e9e9;
     --text-light: #64748b;
-    --bg-light: #333333
+    --bg-light: #333333;
     --bg-white: #ffffff;
     --border-color: #cccccc;
-    --success-color: #10b981;
-    --warning-color: #f59e0b;
+   
     --error-color: #ef4444;
     --spacing-unit: 8px;
     --border-radius: 12px;
@@ -88,7 +87,7 @@ a:hover {
     backdrop-filter: blur(10px);
 }
 
-.header-content {
+.header-conteudo {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -125,12 +124,12 @@ a:hover {
     transform: translateX(-50%) scaleX(0);
     width: 80%;
     height: 2px;
-    background-color: var(--accent-color);
+    background-color: var(--texto-menu);
     transition: transform 0.3s ease;
 }
 
 .menu-link:hover {
-    color: var(--accent-color);
+    color: var(--texto-menu);
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -145,7 +144,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     gap: calc(var(--spacing-unit) * 4);
-    flex: 10 auto;
+    flex: 10 aut;
 }
 
 @media (min-width: 768px) {
