@@ -243,20 +243,17 @@ a:hover {
 }
 
 .barra-lateral {
-    background-color: #d1ecf1;   
-    padding: 20px;
-    border: 2px dashed #17a2b8;
     display: flex;
     flex-direction: column;
     gap: calc(var(--spacing-unit) * 3);
 }
 
 .sidebar-section {
-    background-color: var(--bg-white);
+    background-color: #d1ecf1;
     padding: calc(var(--spacing-unit) * 3);
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-sm);
-    border: 1px solid var(--border-color);
+    border: 2px dashed #17a2b8;
 }
 
 .sidebar-section h3 {
