@@ -243,6 +243,7 @@ a:hover {
 }
 
 .barra-lateral {
+    background-color: #d1ecf1;   
     padding: 20px;
     border: 2px dashed #17a2b8;
     display: flex;
