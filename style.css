@@ -9,8 +9,7 @@
     --bg-light: #333333;
     --bg-white: #ffffff;
     --border-color: #cccccc;
-    --vermelho: red
-    
+    --warning-color:red
     --spacing-unit: 8px;
     --border-radius: 12px;
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -192,7 +191,7 @@ a:hover {
 
 .alert-box {
     background-color: #fef3c7;
-    border-left: 4px solid var(--vermelho);
+    border-left: 4px solid var(--warning-color);
     padding: calc(var(--spacing-unit) * 2);
     margin: calc(var(--spacing-unit) * 3) 0;
     border-radius: calc(var(--border-radius) / 2);
