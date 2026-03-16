@@ -256,13 +256,6 @@ a:hover {
     border: 2px dashed #17a2b8;
 }
 
-.sidebar-section h3 {
-    color: var(--text-dark);
-    padding-bottom: calc(var(--spacing-unit) * 2);
-    border-bottom: 2px solid var(--border-color);
-    margin-bottom: calc(var(--spacing-unit) * 2);
-}
-
 .useful-links {
     list-style: none;
 }
